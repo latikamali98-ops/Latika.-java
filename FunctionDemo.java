@@ -48,12 +48,12 @@ public class FunctionDemo
     public static void main(String[]args)
     {
         Calculator calc = new Calculator();
-        System.out.println("Add two integers:" + calc.add(5, 10));
-        System.out.println("Add three integers:" + calc.add(5, 10, 15));
-        System.out.println("Add two doubles:" + calc.add(5.5,4.5));
+        System.out.println("Add two integers:" + calc.add(50, 100));
+        System.out.println("Add three integers:" + calc.add(50, 100, 150));
+        System.out.println("Add two doubles:" + calc.add(5.55,4.55));
 
         Student s1 = new Student();
-        Student s2 = new Student("Nitin", 22);
+        Student s2 = new Student("Latika", 19);
         Student s3 = new Student(s2);
 
         s1.display();
